@@ -37,7 +37,8 @@ Any object can be tested for truth value, for use in an if or while condition or
 
 ## Conditional Statement
 
-It selects exactly one of the suites by evaluating the expressions one by one until one is found to be true (see section Boolean operations for the definition of true and false); then that suite is executed (and no other part of the if statement is executed or evaluated). If all expressions are false, the suite of the else clause, if present, is executed.
+It evaluates the if statement lines to see if it is true, then those lines are run.  
+If all expressions are false, the else clause, if present, is executed.
 
 ```python
 name = "tharanga"
@@ -50,3 +51,4 @@ elif name = "tharanga":
 else:
   print("I'm not sure who that is, sorry")
 ```
+
